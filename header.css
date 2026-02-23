@@ -60,7 +60,7 @@ h1{
 .dropdown-content{
   display: none;
   position: absolute;
-  top: 50px;
+  top: 100%;
   left: 0;
   background: beige;
   min-width: 360px;
