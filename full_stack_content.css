@@ -1,0 +1,175 @@
+    .bg {
+    width: 100%;
+    height: 60vh;
+    background-image:
+        linear-gradient(
+            135deg,
+            #0b0b2a 0%,
+            #1a0f3c 25%,
+            #2b1457 50%,
+            #1b2a6b 75%,
+            #0a1f44 100%
+        );
+    background-position: center, center;
+    background-size: cover, contain;
+    background-repeat: no-repeat, no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.bg img{
+    width:900px;
+    border-radius:60px
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.content h1{
+    font-family: "Poppins",sans-serif;
+    font-size: 35px;
+    color: #1b2a6b;
+    margin-top: 30px;
+    margin-left: 4%;
+    animation: fadeUp 3s ease forwards;
+}
+
+.download-btn {
+    background: #1b2a6b;
+    color: #fff;
+    padding: 20px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s ease;
+    margin: 30px 20%;
+    animation: fadeUp 3s ease forwards;
+}
+
+.download-btn:hover {
+    background: #0f1a4a;
+    transform: translateY(-2px);
+}
+.fadeUp{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 3s ease forwards;
+}
+@keyframes fadeUp{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1500px;
+    margin: 30px auto;
+    align-items: stretch;
+}
+.box-content{
+    font-family: "Poppins",sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    width: calc(20% - 20px);
+    display: flex;
+}
+.box-content h2{
+   background: #ffffff;
+border-radius: 12px;
+border-left: 6px solid #1b2a6b;
+padding: 18px 22px;
+box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+font-size: 18px;
+transition: 0.3s ease;
+}
+.box-content h2:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.course-content{
+    background: #dfd6d6;   /* soft light grey */
+    padding: 40px 0;
+}
+/* ================= RESPONSIVE DESIGN ================= */
+
+/* Tablet view */
+@media (max-width: 1024px) {
+
+    .bg img {
+        width: 700px;
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .download-btn {
+        margin: 10px 0;
+    }
+
+    .box-content {
+        width: calc(33.33% - 20px); /* 3 cards per row */
+    }
+}
+
+
+/* Mobile large */
+@media (max-width: 768px) {
+
+    .bg {
+        height: auto;
+        padding: 30px 15px;
+    }
+    .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .bg img {
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    .content h1 {
+        font-size: 28px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .box-content {
+        width: calc(50% - 20px); /* 2 cards per row */
+    }
+}
+
+
+/* Small mobile */
+@media (max-width: 480px) {
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .download-btn {
+        padding: 14px 16px;
+        font-size: 15px;
+    }
+
+    .box-content {
+        width: 100%; /* 1 card per row */
+    }
+
+    .box-content h2 {
+        font-size: 16px;
+        padding: 15px;
+    }
+}
