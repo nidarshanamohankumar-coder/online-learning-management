@@ -1,4 +1,4 @@
-<?php include('header.php');
+<?php include("header.php");
 ?>
 <link rel="stylesheet" href="course.css">
 <div class="bg">
