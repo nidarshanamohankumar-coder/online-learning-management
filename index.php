@@ -10,8 +10,8 @@
     <div class="slide" style="background-image:url('images/top4.png');"></div>
     
     <div class="hero-content">
-      <p style="font-weight:bold;text-transform:uppercase;letter-spacing:2px;font-size:35px">Akshayam 360</p>
-      <p>Who We are</p>
+      <p style="font-weight:bold;text-transform:uppercase;letter-spacing:2px;font-size:35px;color:beige">Akshayam 360</p>
+      <p><span style="color:#212f70;">GLOBAL LEARNING SYSTEMS PRIVATE LIMITED</span></p>
     </div>
   </div>
 </section>
@@ -20,9 +20,7 @@
 <div class="texts">
 
 <h1 class="gradient typing">Knowledge builds Confidence, and Confidence builds success... </h1>
-<div class="arr">
-<img src="images/arrow.png" alt="Arrow">
-</div>
+
 
 <div class="batch">
 <img src="images/batch.jpg" alt="batch">

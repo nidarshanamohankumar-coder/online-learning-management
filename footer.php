@@ -23,19 +23,14 @@
           <h3>Quick Links</h3>
           <a href="index.php">Home</a>
           <a href="about.php">About Us</a>
-          <a href="#">Courses</a>
+          <a href="course.php">Courses</a>
         </div>
 
-        <div class='footer-col'>
-          <h3>Useful Links</h3>
-          <a href="#">Contact Us</a>
-          <a href="#">FAQ</a>
-        </div>
+        
 
         <div class='footer-col'>
-          <h3>Working Hours</h3>
-          <p>9.30AM - 4.00PM</p>
-          <p>P.K.R. Arts College for Women, <br />P.B.No.21, 127, Pariyur Road, <br /> Gobichettipalayam - 638 476 Erode District Tamil Nadu.</p>
+          <h3>Contact Us</h3>
+          <p>Akshayam 360 <br />Global Learning Systems Private Limited<br />P.B.No.21, 127, Pariyur Road, <br /> Gobichettipalayam - 638 476 Erode District Tamil Nadu.</p>
         </div>
 </div>
 <div class='footer-bottom'>

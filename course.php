@@ -4,8 +4,8 @@
 <div class="bg">
 
 <div class="hero-content">
-      <p style="font-weight:bold;text-transform:uppercase;letter-spacing:2px;font-size:35px">Courses</p>
-      <p>We are Offering</p>
+      <p style="font-weight:bold;text-transform:uppercase;letter-spacing:2px;font-size:35px;color:beige">COURSES</p>
+      <p><span style="color:#212f70;">We are Offering</span></p>
     </div>
 </div>
 

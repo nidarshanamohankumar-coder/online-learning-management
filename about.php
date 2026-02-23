@@ -12,9 +12,10 @@
   <div class="slide" style="background-image: url('images/i4.jpg');"></div>
 
   <div class="hero-content">
-      <p style="font-weight:bold;text-transform:uppercase;letter-spacing:2px;font-size:35px">About Akshayam 360</p>
-      <p>where ideas turn into innovation and students turn into professionals</p>
+      <p style="font-weight:bold;text-transform:uppercase;letter-spacing:2px;font-size:35px;color:beige">About Akshayam 360</p>
+      <p><span style="color:#212f70;">where ideas turn into innovation and students turn into professionals</span></p>
     </div>
+</div>
 
 </section>
 
