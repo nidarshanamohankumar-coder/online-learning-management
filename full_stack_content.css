@@ -19,8 +19,9 @@
     
 }
 .bg img{
-    width:900px;
-    border-radius:60px
+    width:800px;
+    border-radius:60px;
+    height: 500px;
 }
 .content{
     display: flex;

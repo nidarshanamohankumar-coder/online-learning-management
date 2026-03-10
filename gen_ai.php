@@ -74,6 +74,9 @@ Scikit-learn </h2>
 </div>
 </div>
 
+<div class=explore>
+ <a href="pdf/Gen AI phase 1.pdf" download class="download-btn">Download Phase 1</a>  
+</div>
 
 <h2 class="phase-title">PHASE 2 – Deep Learning (Days 11–14)</h2>
 <div class="card-container">
@@ -98,7 +101,9 @@ ReLU, Sigmoid, Softmax</h2>
 PyTorch</h2>
 </div>
 </div>
-
+<div class=explore>
+ <a href="pdf/Gen AI phase 2.pdf" download class="download-btn">Download Phase 2</a>  
+</div>
 
 <h2 class="phase-title">PHASE 3 – NLP (Days 15–19)</h2>
 <div class="card-container">

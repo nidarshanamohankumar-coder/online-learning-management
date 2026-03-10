@@ -19,8 +19,9 @@
     
 }
 .bg img{
-    width:850px;
-    border-radius:60px
+    width:800px;
+    border-radius:60px;
+    height: 500px;
 }
 .content{
     display: flex;
@@ -105,7 +106,30 @@ transition: 0.3s ease;
     text-align: center;
     color: #0b3d91;
     font-family: "Poppins",sans-serif;
+    margin-top: 60px;
     
+}
+.explore{
+  margin-top: 20px;
+  text-align: center;
+}
+.explore-btn {
+    background: #1b2a6b;
+    color: #fff;
+    padding: 20px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s ease;
+    margin: 30px 20%;
+    box-shadow: rgba(197, 155, 155, 0.6);
+}
+
+.explore-btn:hover {
+    background: #162568;
+    transform: translate(-5px);
+     box-shadow: 0 10px 25px rgba(0,0,0,0.3); /
 }
 /* ================= RESPONSIVE DESIGN ================= */
 
